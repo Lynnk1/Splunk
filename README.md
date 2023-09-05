@@ -7,7 +7,7 @@
 
 - <b>Splunk Enterprise.
 <br/>Here is a free trial you can use for splunk enterprise https://www.splunk.com/en_us/products/splunk-enterprise.html
-- <b>Practice Data<br/>
+- <b>Practice_Data.zip, MOCK_DATA.csv, and cisco_ironport_web.log<br/>
 <h2>Add-ons and Practice Data</h2>
 
 - <b>Test</b> 
