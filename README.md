@@ -13,7 +13,7 @@
 
 - <b>Splunk Enterprise
 
-<h2>Program walk-through:</h2>
+<h2>Splunk use-cases walk-through:</h2>
 
 <p align="center">
 Launch the utility: <br/>
