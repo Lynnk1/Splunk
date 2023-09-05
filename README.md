@@ -1,6 +1,6 @@
 # Splunk
 <h2>Description</h2>
-<b>Splunk is a powerful tool that can tell a story by giving insight to organiations. It is like a centric-like repository that collects all logs and acts as a universal forwarder. Splunk can ingest data and be used to monitor traffic flow, visualizing data, and creating alerts making it versatile for IT troubleshooting, data analysis, security monitoring, and compliance management </b>
+<b>Splunk is a powerful tool that can tell a story by giving insight to organizations. It is like a centric-like repository that collects all logs and acts as a universal forwarder. Splunk can ingest data and be used to monitor traffic flow, visualizing data, and creating alerts making it versatile for IT troubleshooting, data analysis, security monitoring, and compliance management </b>
 <br/>
 
 <h2>What you'll need </h2>
