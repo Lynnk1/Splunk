@@ -1,7 +1,7 @@
 # Splunk
 <h2>Description</h2>
-<b>Think of Splunk as a repository that collects all logs and acts as a universal forwarder. It ingests data and can be used to monitor traffic flow, visualizing data, and creating alerts. It is a power tool that can tell a story by giving insight to businesses.</b>
-<br />
+<b>Splunk is a centric-like repository that collects all logs and acts as a universal forwarder. It ingests data and can be used to monitor traffic flow, visualizing data, and creating alerts. It is a powerful tool that can tell a story by giving insight to businesses.</b>
+<br/>
 
 <h2>What you'll need </h2>
 
