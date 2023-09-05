@@ -4,6 +4,7 @@
 
 <b>Splunk is a potent data analysis and monitoring tool that empowers organizations with actionable insights. Serving as a centralized repository and a universal forwarder for logs, Splunk excels in data ingestion, traffic monitoring, data visualization, and alert generation. Its versatility lends itself to a wide array of applications, including IT troubleshooting, robust data analysis, vigilant security monitoring, and effective compliance management </b>
 <br/>
+<b> Here I will show you some mini projects of what Splunk can do!
 
 <h2>What you'll need </h2>
 
