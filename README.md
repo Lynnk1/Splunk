@@ -29,6 +29,7 @@ Your input phase will consist of host, source, and sourcetype.
 <h2>Splunk use-cases walk-through:</h2>
 
 <p align="center">
-Launch the utility: <br/>
+Launch the utility and login:</p>
+<br/>
 
-</p>
+![login](https://github.com/Lynnk1/images-in-readme/assets/89667260/a6a43c0d-907b-4461-8fef-3a0b70a20728)
