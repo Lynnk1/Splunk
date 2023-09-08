@@ -11,11 +11,17 @@
 - <b>Splunk Enterprise.
 <br/>Here is a free trial you can use for splunk enterprise https://www.splunk.com/en_us/products/splunk-enterprise.html
 - <b>Practice_Data.zip, MOCK_DATA.csv, and cisco_ironport_web.log<br/>
-<h2>Add-ons and Practice Data</h2>
+<h2>What to know and add-ons</h2>
 
-- <b>Test</b> 
-- <b>Diskpart</b>
+- <b>Input Data:</b> 
+Your input phase will consist of host, source, and sourcetype.
 
+| host      | source        | sourcetype |
+| ----------|:-------------:| ------------:|
+| web1      | access.log    | access_combined |
+| web2      | cisco_ironport_web.log | cisco:wsa:squid |
+| web3      | secure.log    | linux_secure  |
+| web4 
 
 
 <h2>Splunk use-cases walk-through:</h2>
