@@ -33,3 +33,7 @@ Launch the utility and login:</p>
 <br/>
 
 ![login](https://github.com/Lynnk1/images-in-readme/assets/89667260/a6a43c0d-907b-4461-8fef-3a0b70a20728)
+
+<h2> Transaction Command </h2>
+<b> You can use transaction command to locate events that match a specific criteria or investigate a correlation.</b>
+<b> Compared to stats command, you can find user activity for logins, session duration length, network logs of interests, and more that helps aid investigations.</b>
