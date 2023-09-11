@@ -42,6 +42,10 @@ Here we will use a simple transaction command looking for events with no pause b
 <br/> <br/>
  index=security 
 <br/>
-| transaction maxspan=5min maxpause=3s
+| transaction maxspan=5min maxpause=3s 
+
+![transaction](https://github.com/Lynnk1/Splunk/assets/89667260/b9e261f9-ae25-4f2c-b0e9-4a9a7ffe40fb) 
+
+
 
 
