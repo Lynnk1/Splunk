@@ -37,3 +37,9 @@ Launch the utility and login:</p>
 <h2> Finding events occuring from an ip address </h2>
 <b> You can use transaction command to locate events that match a specific criteria or investigate a correlation.</b>
 <b> Compared to stats command, you can find user activity for logins, session duration length, network logs of interests, and more that helps aid investigations.</b>
+<br/> <br/>
+Here we will use a simple transaction command looking for events with no pause between events greater than 3 seconds and using maxspan to show a maximum time of 5 minutes between the earliest and the latest events.
+<br/> <br/>
+ index=security 
+<br/>
+| transaction maxspan=5min maxpause=3s
