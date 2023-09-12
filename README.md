@@ -25,7 +25,6 @@ Your input phase will consist of host, source, and sourcetype.
 | web3      | secure.log    | linux_secure  |
 | web4 
 
-
 <h2>Splunk use-cases walk-through:</h2>
 
 <p align="center">
