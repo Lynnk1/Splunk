@@ -46,7 +46,20 @@ Here we will use a simple transaction command looking for events with no pause b
 
 ![transaction](https://github.com/Lynnk1/Splunk/assets/89667260/b9e261f9-ae25-4f2c-b0e9-4a9a7ffe40fb) 
 <br/>
-We can dig a little deeper,
+We can go further by checking what actions have been taken by each diffrent ip sources.
+<br/>
+Note that we will search through the index of web this time. We will use the eval command to create a string called "duration" which will capture the time stamp. Then we will create a table for ip, duration, and action
+<br/>
+<br/>
+index=web
+<br/>
+| transaction clientip maxspan=5min maxpause=3s
+<br/>
+| eval duration = tostring(duration, "duration")
+<br/>
+| table clientip, duration, action
+<br/>
+![transactiontwo](https://github.com/Lynnk1/images-in-readme/assets/89667260/c0818c87-6701-4c0c-ae6c-0eb0629241cc)
 
 
 
