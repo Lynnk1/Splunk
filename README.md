@@ -46,6 +46,7 @@ Here we will use a simple transaction command looking for events with no pause b
 <br/>
 
 ![transaction](https://github.com/Lynnk1/Splunk/assets/89667260/b9e261f9-ae25-4f2c-b0e9-4a9a7ffe40fb) 
+
 <br/>
 We can go further by checking what actions have been taken by each diffrent ip sources.
 <br/>
@@ -61,6 +62,7 @@ index=web
 | table clientip, duration, action
 <br>
 <br/>
+
 ![transactiontwo](https://github.com/Lynnk1/images-in-readme/assets/89667260/c0818c87-6701-4c0c-ae6c-0eb0629241cc)
 <br/>
 
