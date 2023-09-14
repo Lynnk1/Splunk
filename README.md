@@ -82,11 +82,16 @@ index=security eventtype=failed_login
 > Be sure to select "Visualization" tab and select which format you would like your visualization to be displayed.
 <br> </br>
 
-Earlier we did a search to see what actions were taken by certain ip sources. We can also turn that into a bar graph on our dashboard.
+Earlier we did a search to see what actions were taken by certain ip sources. We can also turn that into a bar graph to put on our dashboard.
 <br> </br>
 index=web
 </br>
 | where isnotnull(action)
 </br>
 | timechart count by action
+</br>
+![actions taken](https://github.com/Lynnk1/images-in-readme/assets/89667260/761a4155-4b6a-466a-a1aa-d047f7c7a593)
+</br>
+Actions are color coded in the bar graph and each bar represents the number of count.
+> To show the data values on top of each bar, click on the format and turn on "Show Data Values"
 
