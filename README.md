@@ -74,3 +74,19 @@ Let's look into the security index and identify failed login attempts.
 index=security eventtype=failed_login
 </br>
 | timechart count by user useother=f usenull=f limit=5
+</br>
+
+![failed login](https://github.com/Lynnk1/images-in-readme/assets/89667260/73403094-26a0-471b-a834-d229b3fbef97)
+> We use the commands "useother=f", "usenull=f", and "limit=5" to filter out 'other' results and make it look less clustered.
+
+> Be sure to select "Visualization" tab and select which format you would like your visualization to be displayed.
+<br> </br>
+
+Earlier we did a search to see what actions were taken by certain ip sources. We can also turn that into a bar graph on our dashboard.
+<br> </br>
+index=web
+</br>
+| where isnotnull(action)
+</br>
+| timechart count by action
+
