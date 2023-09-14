@@ -65,6 +65,12 @@ index=web
 
 ![transactiontwo](https://github.com/Lynnk1/images-in-readme/assets/89667260/c0818c87-6701-4c0c-ae6c-0eb0629241cc)
 <br/>
-
-
-
+<h2> Visualizing Data </h2>
+<h>Data can be visualized in line charts, bar graphs, pie graphs, and more.</h>
+<h>This helps data more comprehensible by transforming raw data to make it easier to understand patterns, behavior, and anomalies.</h>
+<br> </br>
+Let's look into the security index and identify failed login attempts.
+<br> </br>
+index=security eventtype=failed_login
+</br>
+| timechart count by user useother=f usenull=f limit=5
