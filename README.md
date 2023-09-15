@@ -94,4 +94,8 @@ index=web
 </br>
 Actions are color coded in the bar graph and each bar represents the number of count.
 > To show the data values on top of each bar, click on the format and turn on "Show Data Values"
+<b></br>
+<h2> Alerts </h2>
+<b>You can use alerts to generate reports on a scheduled task that repeats itself.</b>
+<b>Below we will create an alert that generates executables being ran as an example.</b>
 
