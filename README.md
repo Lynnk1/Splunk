@@ -98,5 +98,6 @@ Actions are color coded in the bar graph and each bar represents the number of c
 <h2> Workflows </h2>
 <b>The benefits of workflows is the ability to facilitate real time response. It creates an interaction between field events and web resources.</b>
 <br>
-<b>Below we will demonstrate the "GET" workflow action.</b>
+<b>Below we will demonstrate the "GET" workflow action by using whois.domaintools.com as a web resource to look up any ip address of interest within our splunk.</b>
+
 
