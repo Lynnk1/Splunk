@@ -3,8 +3,9 @@
 <h2>Description</h2>
 
 <b>Splunk is a potent data analysis and monitoring tool that empowers organizations with actionable insights. Serving as a centralized repository and a universal forwarder for logs, Splunk excels in data ingestion, traffic monitoring, data visualization, and alert generation. Its versatility lends itself to a wide array of applications, including IT troubleshooting, robust data analysis, vigilant security monitoring, and effective compliance management. </b>
-<br/>
-<b> Here I will show you some mini projects of what Splunk can do!
+<br>
+
+<b> Here I will show you what some projects that I learned from earning my Splunk Core Certified Power User certificate.
 
 <h2>What you'll need </h2>
 
@@ -100,7 +101,41 @@ Actions are color coded in the bar graph and each bar represents the number of c
 <br>
 <b>Below we will demonstrate the "GET" workflow action by using whois.domaintools.com as a web resource to look up any ip address of interest within our splunk.</b>
 <br>
+</br>
 
 ![whois](https://github.com/Lynnk1/images-in-readme/assets/89667260/1ee3dca9-a6e2-4736-9f1f-531f2bad09e6)
+<br>
+<br>
+In Splunk, we will index our web in the search bar.
+</br>
+index=web
+<br>
+We can pick an event and go into details to use the IP address. Copy the IP address.
+</br>
+<br>
+![eventlog](https://github.com/Lynnk1/images-in-readme/assets/89667260/214aeb7c-8a05-4a73-b55d-66714e2553c2)
+<br>
+Then, we will paste it into our whois.domaintools.com search bar. 
+</br>
+The results should display like this.
+<br>
+<br>
+![domaintools](https://github.com/Lynnk1/images-in-readme/assets/89667260/2d0f87b3-89e5-4d53-a65a-69c3d90e4d71)
+</br>
+<br>
+Now we don't have to always do this. Splunk allows to create workflows to make it interactable.
+</br>
+To do that, we'll need to head back to splunk and create the workflow in Settings > Fields > Add New next to Workflow Actions.
+</br>
+<br>
+![whoissetting](https://github.com/Lynnk1/images-in-readme/assets/89667260/983dafa2-ea1f-4f1a-a14a-6861d98b1a5d)
+</br>
+<br>
+Hit save and when you pull up the event actions in the fields, It will display a GET whois action that will redirect you to that url with the IP address.
+</br>
+<br>
+![endresult](https://github.com/Lynnk1/images-in-readme/assets/89667260/eb2c3b9e-bbd7-4f92-984d-296c5a42d7bf)
+
+
 
 
