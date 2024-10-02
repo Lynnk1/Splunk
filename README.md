@@ -49,7 +49,7 @@ Here we will use a simple transaction command looking for events with no pause b
 ![transaction](https://github.com/Lynnk1/images-in-readme/assets/89667260/e4eeb329-782d-4c34-8626-8dbbf2274a08)
 
 <br/>
-We can go further by checking what actions have been taken by each diffrent ip sources.
+We can go further by checking what actions have been taken by each different ip sources.
 <br/>
 Note that we will search through the index of web this time. We will use the eval command to create a string called "duration" which will capture the time stamp. Then we will create a table for ip, duration, and action
 <br/>
